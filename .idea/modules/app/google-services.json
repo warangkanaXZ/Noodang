@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "753584622306",
+    "firebase_url": "https://noodang-6b417.firebaseio.com",
+    "project_id": "noodang-6b417",
+    "storage_bucket": "noodang-6b417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753584622306:android:cf771660f92715e6162cbb",
+        "android_client_info": {
+          "package_name": "com.example.noodang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753584622306-rn3m8o7b5a04erkdme5a5q4ui206mu6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.noodang",
+            "certificate_hash": "2542649ef836383cd6b435dca91ea33469714d8d"
+          }
+        },
+        {
+          "client_id": "753584622306-8ieotudrskkbu3o90kv1dsf9ap2km85n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVNUZ4xkJG5hk12rn1IBlNBByXak5EF50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753584622306-8ieotudrskkbu3o90kv1dsf9ap2km85n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

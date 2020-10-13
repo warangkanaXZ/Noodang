@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "470420059606",
+    "firebase_url": "https://noodang-82e1c.firebaseio.com",
+    "project_id": "noodang-82e1c",
+    "storage_bucket": "noodang-82e1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470420059606:android:b55da2f1f9bfaba15e6077",
+        "android_client_info": {
+          "package_name": "com.example.noodang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470420059606-3g0vls8n0sbemsf84s7rvr85shp7d6k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcIuTJBbi0L72_Wl8UE03Ilkcqll1KQcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470420059606-3g0vls8n0sbemsf84s7rvr85shp7d6k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

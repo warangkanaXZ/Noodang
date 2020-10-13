@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Noodang</string>
+    <string name="login">Login</string>
+    <string name="name">ชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="signin">เข้าสู่ระบบ</string>
+    <string name="or">หรือ</string>
+    <string name="fotgetpassword">ลืมรหัสผ่าน?</string>
+    <string name="register">ลงทะเบียน</string>
+</resources>
