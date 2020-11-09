@@ -8,6 +8,21 @@
     tools:context=".MenuActivity">
 
     <TextView
+        android:id="@+id/menubar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/mitr"
+        android:text="เมนู"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:background="#ffd687"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ดีจ้า"
@@ -17,5 +32,20 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/mitr"
+        android:backgroundTint="#ffd687"
+        android:text="@string/setting1"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menubar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:targetApi="lollipop"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
