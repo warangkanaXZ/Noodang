@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -12,6 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class settingActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView logout, edit_Profile, noti;
+    private ImageView setting_back;
 
 
 

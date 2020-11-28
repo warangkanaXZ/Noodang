@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="@font/mitr"
-        android:text="เมนู"
+        android:text="เกม"
         android:textSize="50sp"
         android:textStyle="bold"
         android:background="#ffd687"
@@ -22,16 +22,6 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
-    <ImageView
-        android:id="@+id/btngo"
-        android:layout_width="40dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/levels"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="10dp"
-        />
 
     <ImageView
         android:id="@+id/gamebtg"
@@ -45,15 +35,26 @@
         app:layout_constraintTop_toBottomOf="@+id/menubar"
         />
 
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        />
+
     <TextView
-        android:id="@+id/game"
+        android:id="@+id/exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/mitr"
-        android:text="เกม"
-        android:textSize="35sp"
-        android:layout_marginLeft="80dp"
+        android:text="ออกกำลังกาย"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
         app:layout_constraintTop_toBottomOf="@+id/gamebtg"
         app:layout_constraintLeft_toLeftOf="parent"
         />
@@ -71,16 +72,16 @@
         />
 
     <TextView
-        android:id="@+id/chat"
+        android:id="@+id/nonggreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/mitr"
-        android:text="แชท"
-        android:textSize="35sp"
-        android:layout_marginLeft="155dp"
+        android:text="น้องเขียวขจี"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
         app:layout_constraintTop_toBottomOf="@+id/chatbtg"
-        app:layout_constraintLeft_toRightOf="@+id/game"
+        app:layout_constraintLeft_toRightOf="@+id/exercise"
         />
 
     <ImageView
@@ -95,14 +96,14 @@
         />
 
     <TextView
-        android:id="@+id/music"
+        android:id="@+id/shake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/mitr"
-        android:text="เพลง"
-        android:textSize="35sp"
-        android:layout_marginLeft="170dp"
+        android:text="เขย่ากันหน่อย"
+        android:textSize="30sp"
+        android:layout_marginLeft="130dp"
         app:layout_constraintTop_toBottomOf="@+id/musicbtg"
         app:layout_constraintLeft_toLeftOf="parent"
         />
